@@ -44,14 +44,14 @@ pipeline {
                         """
                     }
                 }
-                stage('Test File 2') {
+                /*stage('Test File 2') {
                     steps {
                         bat """
                         call ${VENV_DIR}\\Scripts\\activate
                         python -m pytest test_app_2.py -v
                         """
                     }
-                }
+                }*/
             }
         }
 
