@@ -14,7 +14,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     url: 'https://github.com/majdBahri/Jenkins-CI-CD.git',
-                    credentialsId: 'github-token'
+                    credentialsId: '325caf08-d00c-4d23-957e-dd859e2cd13e'
             }
         }
 
