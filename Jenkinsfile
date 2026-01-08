@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        GITHUB_TOKEN = credentials('github-token')
+        GITHUB_TOKEN = credentials('325caf08-d00c-4d23-957e-dd859e2cd13e')
         VENV_DIR = ".venv"
         HOST = "0.0.0.0"
         PORT = "5000"
