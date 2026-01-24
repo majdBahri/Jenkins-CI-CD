@@ -8,7 +8,7 @@ class TestApp(unittest.TestCase):
         self.client.testing = True
  
     def test_home_page(self):
-        response = self.client.get('/')
+        response = self.client.get('/') 
         self.assertEqual(response.status_code, 200)
         self.assertIn(b'Flask CI/CD Demo using Jenkins', response.data)
 
